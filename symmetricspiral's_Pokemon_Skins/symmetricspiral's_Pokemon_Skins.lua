@@ -2,7 +2,7 @@
 --- MOD_NAME: symmetricspiral's Pokemon DeckSkins
 --- MOD_ID: symmetricspiral's_Pokemon_Skins
 --- MOD_AUTHOR: [symmetricspiral]
---- MOD_DESCRIPTION: im da best ever
+--- MOD_DESCRIPTION: gotta catch em uhhhh
 
 ----------------------------------------------
 ------------MOD CODE -------------------------
