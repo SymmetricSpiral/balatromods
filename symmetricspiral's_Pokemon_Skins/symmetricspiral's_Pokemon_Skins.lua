@@ -42,6 +42,20 @@ SMODS.Atlas {
   py = 95,
   atlas_table = 'ASSET_ATLAS'
 }
+SMODS.Atlas {
+  key = "grass_1",
+  path = "acorns.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
+SMODS.Atlas {
+  key = "grass_2",
+  path = "acorns_shiny.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
 
 
 SMODS.DeckSkin{
@@ -65,6 +79,18 @@ SMODS.DeckSkin{
   display_ranks = {"Jack", "Queen", "King"},    
     loc_txt = {
       ["en-us"] = "Hitmontop, Hitmonlee, Hitmonchan"
+      },
+  posStyle = "collab",
+}
+SMODS.DeckSkin{
+  key = "shiftry",
+  suit = "Spades",
+  lc_atlas = "grass_1",
+  hc_atlas = "grass_2",
+  ranks =  {"Jack", "Queen", "King"},
+  display_ranks = {"Jack", "Queen", "King"},    
+    loc_txt = {
+      ["en-us"] = "Seedot, Nuzleaf, and Shiftry"
       },
   posStyle = "collab",
 }
