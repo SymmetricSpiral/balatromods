@@ -12,6 +12,11 @@ Pokémon themed Balatro face card skins, downloads can also be found at https://
 - Hitmonlee Queens
 - Hitmonchan Kings
 
+##### Shiftry Line [Spades]:
+- Seedot Jacks
+- Nuzleaf Queens
+- Shiftry Kings
+
 ###### *requires Steammodded
 
 #### For questions, recommendations, or critiques, feel free to contact me on Instagram or Discord @symmetricspiral
