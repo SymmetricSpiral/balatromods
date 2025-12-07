@@ -44,14 +44,28 @@ SMODS.Atlas {
 }
 SMODS.Atlas {
   key = "grass_1",
-  path = "acorns.png",
+  path = "shiftry.png",
   px = 71,
   py = 95,
   atlas_table = 'ASSET_ATLAS'
 }
 SMODS.Atlas {
   key = "grass_2",
-  path = "acorns_shiny.png",
+  path = "shiftry_shiny.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
+SMODS.Atlas {
+  key = "steel_1",
+  path = "aggron.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
+SMODS.Atlas {
+  key = "steel_2",
+  path = "aggron_shiny.png",
   px = 71,
   py = 95,
   atlas_table = 'ASSET_ATLAS'
@@ -91,6 +105,18 @@ SMODS.DeckSkin{
   display_ranks = {"Jack", "Queen", "King"},    
     loc_txt = {
       ["en-us"] = "Seedot, Nuzleaf, and Shiftry"
+      },
+  posStyle = "collab",
+}
+SMODS.DeckSkin{
+  key = "aggron",
+  suit = "Hearts",
+  lc_atlas = "steel_1",
+  hc_atlas = "steel_2",
+  ranks =  {"Jack", "Queen", "King"},
+  display_ranks = {"Jack", "Queen", "King"},    
+    loc_txt = {
+      ["en-us"] = "Aron, Lairon, and Aggron"
       },
   posStyle = "collab",
 }
