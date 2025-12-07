@@ -13,6 +13,11 @@ Pokémon themed Balatro face card skins, downloads can also be found at https://
 - Hitmonchan Kings
 
 ##### Shiftry Line [Spades]:
+- Aron Jacks
+- Lairon Queens
+- Aggron Kings
+
+##### Shiftry Line [Spades]:
 - Seedot Jacks
 - Nuzleaf Queens
 - Shiftry Kings
