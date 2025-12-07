@@ -90,7 +90,7 @@ SMODS.DeckSkin{
   lc_atlas = "fight_1",
   hc_atlas = "fight_2",
   ranks =  {"Jack", "Queen", "King"},
-  display_ranks = {"Jack", "Queen", "King"},    
+  display_ranks = {"King", "Queen", "Jack"},    
     loc_txt = {
       ["en-us"] = "Hitmontop, Hitmonlee, Hitmonchan"
       },
@@ -102,7 +102,7 @@ SMODS.DeckSkin{
   lc_atlas = "grass_1",
   hc_atlas = "grass_2",
   ranks =  {"Jack", "Queen", "King"},
-  display_ranks = {"Jack", "Queen", "King"},    
+  display_ranks = {"King", "Queen", "Jack"},    
     loc_txt = {
       ["en-us"] = "Seedot, Nuzleaf, and Shiftry"
       },
@@ -114,7 +114,7 @@ SMODS.DeckSkin{
   lc_atlas = "steel_1",
   hc_atlas = "steel_2",
   ranks =  {"Jack", "Queen", "King"},
-  display_ranks = {"Jack", "Queen", "King"},    
+  display_ranks = {"King", "Queen", "Jack"},    
     loc_txt = {
       ["en-us"] = "Aron, Lairon, and Aggron"
       },
