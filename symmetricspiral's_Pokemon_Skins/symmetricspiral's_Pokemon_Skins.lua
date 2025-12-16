@@ -70,6 +70,35 @@ SMODS.Atlas {
   py = 95,
   atlas_table = 'ASSET_ATLAS'
 }
+SMODS.Atlas {
+  key = "ghost_1",
+  path = "gengar.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
+SMODS.Atlas {
+  key = "ghost_2",
+  path = "gengar_shiny.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
+SMODS.Atlas {
+  key = "ghost_3",
+  path = "aegislash.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
+SMODS.Atlas {
+  key = "ghost_4",
+  path = "aegislash_shiny.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
+
 
 
 SMODS.DeckSkin{
@@ -117,6 +146,30 @@ SMODS.DeckSkin{
   display_ranks = {"King", "Queen", "Jack"},    
     loc_txt = {
       ["en-us"] = "Aron, Lairon, and Aggron"
+      },
+  posStyle = "collab",
+}
+SMODS.DeckSkin{
+  key = "gengar",
+  suit = "Spades",
+  lc_atlas = "ghost_1",
+  hc_atlas = "ghost_2",
+  ranks =  {"Jack", "Queen", "King"},
+  display_ranks = {"King", "Queen", "Jack"},    
+    loc_txt = {
+      ["en-us"] = "Gastly, Haunter, and Gengar"
+      },
+  posStyle = "collab",
+}
+SMODS.DeckSkin{
+  key = "aegislash",
+  suit = "Hearts",
+  lc_atlas = "ghost_3",
+  hc_atlas = "ghost_4",
+  ranks =  {"Jack", "Queen", "King"},
+  display_ranks = {"King", "Queen", "Jack"},    
+    loc_txt = {
+      ["en-us"] = "Honedge, Doublade, and Aegislash"
       },
   posStyle = "collab",
 }
