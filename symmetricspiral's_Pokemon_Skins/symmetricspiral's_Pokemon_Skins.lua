@@ -98,6 +98,20 @@ SMODS.Atlas {
   py = 95,
   atlas_table = 'ASSET_ATLAS'
 }
+SMODS.Atlas {
+  key = "water_1",
+  path = "blastoise.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
+SMODS.Atlas {
+  key = "water_2",
+  path = "blastoise_shiny.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
 
 
 
@@ -170,6 +184,18 @@ SMODS.DeckSkin{
   display_ranks = {"King", "Queen", "Jack"},    
     loc_txt = {
       ["en-us"] = "Honedge, Doublade, and Aegislash"
+      },
+  posStyle = "collab",
+}
+SMODS.DeckSkin{
+  key = "blastoise",
+  suit = "Clubs",
+  lc_atlas = "water_1",
+  hc_atlas = "water_2",
+  ranks =  {"Jack", "Queen", "King"},
+  display_ranks = {"King", "Queen", "Jack"},    
+    loc_txt = {
+      ["en-us"] = "Squirtle, Wartortle, and Blastoise"
       },
   posStyle = "collab",
 }
