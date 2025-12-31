@@ -112,7 +112,20 @@ SMODS.Atlas {
   py = 95,
   atlas_table = 'ASSET_ATLAS'
 }
-
+SMODS.Atlas {
+  key = "electric_1",
+  path = "ampharos.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
+SMODS.Atlas {
+  key = "electric_2",
+  path = "ampharos_shiny.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
 
 
 SMODS.DeckSkin{
@@ -196,6 +209,18 @@ SMODS.DeckSkin{
   display_ranks = {"King", "Queen", "Jack"},    
     loc_txt = {
       ["en-us"] = "Squirtle, Wartortle, and Blastoise"
+      },
+  posStyle = "collab",
+}
+SMODS.DeckSkin{
+  key = "ampharos",
+  suit = "Diamonds",
+  lc_atlas = "electric_1",
+  hc_atlas = "electric_2",
+  ranks =  {"Jack", "Queen", "King"},
+  display_ranks = {"King", "Queen", "Jack"},    
+    loc_txt = {
+      ["en-us"] = "Mareep, Flaaffy, and Ampharos"
       },
   posStyle = "collab",
 }
