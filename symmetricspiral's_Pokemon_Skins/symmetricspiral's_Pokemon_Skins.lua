@@ -126,7 +126,20 @@ SMODS.Atlas {
   py = 95,
   atlas_table = 'ASSET_ATLAS'
 }
-
+SMODS.Atlas {
+  key = "bw_1",
+  path = "creation_trio.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
+SMODS.Atlas {
+  key = "bw_2",
+  path = "creation_trio_shiny.png",
+  px = 71,
+  py = 95,
+  atlas_table = 'ASSET_ATLAS'
+}
 
 SMODS.DeckSkin{
   key = "pkmerald",
@@ -223,4 +236,16 @@ SMODS.DeckSkin{
       ["en-us"] = "Mareep, Flaaffy, and Ampharos"
       },
   posStyle = "collab",
+}
+SMODS.DeckSkin{
+  key = "blackwhite",
+  suit = "Clubs",
+  lc_atlas = "bw_1",
+  hc_atlas = "bw_2",
+  ranks =  {"Jack", "Queen", "King", "Ace"},
+  display_ranks = {"Ace", "King", "Queen", "Jack"},    
+    loc_txt = {
+      ["en-us"] = "The Sinnoh Creation Trio + Arceus"
+      },
+  posStyle = "ranks",
 }
