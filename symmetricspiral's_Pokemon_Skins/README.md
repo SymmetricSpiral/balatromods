@@ -33,6 +33,22 @@ Pokémon themed Balatro face card skins, downloads can be found at https://githu
 - Doublade Queens
 - Aegislash Kings
 
+##### Blastoise Line [Clubs]:
+- Squirtle Jacks
+- Wartortle Queens
+- Blastoise Kings
+
+##### Ampharos Line [Diamonds]:
+- Mareep Jacks
+- Flaaffy Queens
+- Ampharos Kings
+
+##### Generation 4 Legendaries [Clubs]:
+- Giratina Jacks
+- Palkia Queens
+- Dialga Kings
+- Arceus Aces
+
 
 ###### *requires Steammodded
 
